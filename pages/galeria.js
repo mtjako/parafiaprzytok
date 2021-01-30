@@ -18,6 +18,7 @@ export async function getStaticProps(context) {
       albums,
       footer,
     },
+    revalidate: 1,
   };
 }
 

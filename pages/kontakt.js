@@ -17,6 +17,7 @@ export async function getStaticProps(context) {
       menu,
       footer,
     },
+    revalidate: 1,
   };
 }
 
