@@ -28,7 +28,7 @@ export default function Post({ post, menu, footer }) {
   const [time, setTime] = useState(false);
   const [maxLength, setMaxLength] = useState(false);
   const [send, setSend] = useState(false);
-  const [check,setCheck] = useState(false);
+  const [check, setCheck] = useState(false);
   function sendMessage(e) {
     e.preventDefault();
     setSend(false);
@@ -56,7 +56,7 @@ export default function Post({ post, menu, footer }) {
     <>
       <Head>
         <title>Parafia Przytok</title>
-        <meta name="description" content="Oficjalna strona Parafi Przytok"/>
+        <meta name="description" content="Oficjalna strona Parafi Przytok" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navigation menu={menu} />
@@ -128,6 +128,9 @@ export default function Post({ post, menu, footer }) {
               fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)"
             />
           </svg>
+          <div>
+            {/*
+
           <div className="text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Formularz kontaktowy
@@ -209,6 +212,7 @@ export default function Post({ post, menu, footer }) {
                 ) : null}
               </div>
             </form>
+          </div>*/}
           </div>
           <Faq />
         </div>

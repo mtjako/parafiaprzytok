@@ -26,7 +26,7 @@ export const Content = ({ post }) => {
             height="873"
           />
           <div
-            className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto"
+            className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto content"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
         </div>
