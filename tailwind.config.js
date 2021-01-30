@@ -3,9 +3,15 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      'display': ['Source Sans Pro'],
+      'body': ['Source Sans Pro'],
+    }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
