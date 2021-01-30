@@ -23,7 +23,7 @@ const cache = new InMemoryCache({
 
 const link = createHttpLink({
   // uri: `${process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL}/graphql`,
-  uri: "http://localhost:8000/graphql",
+  uri: "http://ednlkrm.cluster030.hosting.ovh.net/graphql",
 });
 
 export const client = new ApolloClient({
