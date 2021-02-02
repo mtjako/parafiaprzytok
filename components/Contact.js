@@ -18,7 +18,7 @@ export const Contact = () => {
               </svg>
             </div>
             <div class="ml-3 text-base text-gray-500">
-            <p class="text-gray-600 font-bold">Numer Telefonu</p>
+            <p class="text-gray-600 font-bold text-lg">Numer Telefonu</p>
               <p>
               68 323 06 41
               </p>
@@ -35,7 +35,7 @@ export const Contact = () => {
               </svg>
             </div>
             <div class="ml-3 text-base text-gray-500">
-            <p class="text-gray-600 font-bold">Email</p>
+            <p class="text-gray-600 font-bold text-lg">Email</p>
               <p>
               parafiaprzytok@gmail.com
               </p>
@@ -49,8 +49,8 @@ export const Contact = () => {
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
 </svg>
             </div>
-            <div class="ml-3 text-base text-gray-500">
-            <p class="text-gray-600 font-bold">Numer Konta</p>
+            <div class="ml-3 text-base text-gray-500 ">
+            <p class="text-gray-600 font-bold text-lg">Numer Konta</p>
               <p>
               32 2490 0005 0000 4500 1114 4326
               </p>
@@ -68,7 +68,7 @@ export const Contact = () => {
 </svg>
             </div>
             <div class="ml-3 text-base text-gray-500">
-            <p class="text-gray-600 font-bold">Adres</p>
+            <p class="text-gray-600 font-bold text-lg">Adres</p>
               <p>
               Parafia p.w. Wniebowzięcia NMP w Przytoku
               </p>

@@ -18,13 +18,15 @@ export const Content = ({ post }) => {
               {post.title}
             </span>
           </h1>
+          {post.categories.nodes[0].name == "Galeria" ? null : (
           <img
-            className="w-full rounded-lg mt-6"
-            src={thumbnail}
-            alt=""
-            width="1310"
-            height="873"
-          />
+          className="w-full rounded-lg mt-6"
+          src={thumbnail}
+          alt=""
+          width="1310"
+          height="873"
+        />
+          )}
           <div
             className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto content"
             dangerouslySetInnerHTML={{ __html: post.content }}

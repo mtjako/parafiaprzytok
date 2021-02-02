@@ -68,7 +68,7 @@ export const Faq = () => {
   return (
     <div>
       <div className="max-w-7xl mx-auto py-12  sm:py-16 ">
-        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+        <div className="max-w-3xl mx-auto ">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               FAQ
