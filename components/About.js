@@ -25,20 +25,7 @@ export const About = () => {
               Tomasz Trębacz
             </p>
             <p className="text-gray-600">
-              Proboszcz parafii p.w. Wniebowzięcia Najświętszej Marii Panny w
-              Przytoku. Pochodzi ze Szprotawy. Urodził się w 1977 r. Po
-              ukończeniu Szkoły Podstawowej równolegle ze Szkołą Muzyczną I-go
-              Stopnia w Szprotawie, rozpoczął naukę w Zespole Szkół Rolniczych w
-              Szprotawie. Po uzyskaniu świadectwa dojrzałości w 1997 r.,
-              rozpoczął studia filozoficzno-teologiczne w Uniwersytecie A.
-              Mickiewicza w Poznaniu z równoczesną formacją do kapłaństwa w
-              Wyższym Zielonogórsko-Gorzowskim Seminarium Duchownym w
-              Gościkowie-Paradyżu. W 2002 r. przyjął święcenia diakonatu z rąk
-              bpa E. Dajczaka. W tym roku ukończył także Studium Organistowskie
-              Diecezji Zielonogórsko-Gorzowskiej. W maju 2003 r. uzyskuje tytuł
-              magistra teologii na podstawie pracy: Człowiek jako podmiot
-              działania moralnego w pismach E. Stein. 24 maja 2003 r. przyjmuje
-              święcenia kapłańskie z rąk bpa Adama Dyczkowskiego.
+            Proboszcz parafii p.w. Wniebowzięcia Najświętszej Marii Panny w Przytoku. Pochodzi ze Szprotawy. Po uzyskaniu świadectwa dojrzałości w 1997 r., rozpoczął studia filozoficzno-teologiczne w Uniwersytecie A. Mickiewicza w Poznaniu z równoczesną formacją do kapłaństwa w Wyższym Zielonogórsko-Gorzowskim Seminarium Duchownym w Gościkowie-Paradyżu. W 2002 r. przyjął święcenia diakonatu z rąk bpa E. Dajczaka. W tym roku ukończył także Studium Organistowskie Diecezji Zielonogórsko-Gorzowskiej. W maju 2003 r. uzyskuje tytuł magistra teologii w Uniwersytecie Adama Mickiewicza w Poznaniu na podstawie pracy: Człowiek jako podmiot działania moralnego w pismach E. Stein. 24 maja 2003 r. przyjmuje święcenia kapłańskie z rąk bpa Adama Dyczkowskiego. Po święceniach pracuje w parafiach: NSPJ w Żarach; Matki Bożej Różańcowej w Jasieniu. W 2007 r. uzyskał doktorat w Uniwersytecie Opolskim na podstawie rozprawy „Szaran jako źródło zła. Studium dogmatyczno-pastoralne”. Przez siedem lat pracował w Kurii biskupiej w Zielonej Górze pełniąc funkcje: Notariusza; Redaktora Naczelnego urzędowego pisma diecezji Ecclesiastica, Notariusza w procesie beatyfikacyjnym Sługi Bożego bpa W. Pluty; Egzorcysty diecezjalnego oraz Sekretarza bpa T. Lityńskiego. Obecnie pełni urząd proboszcza naszej parafii i egzorcysty diecezjalnego. Jest autorem kilku książek i artykułów naukowych i popularnonaukowych. Zainteresowania: teologia, archeologia, muzyka organowa.
             </p>
           </div>
           <div>

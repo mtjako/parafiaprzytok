@@ -5,6 +5,7 @@ import { getAllPosts,getMenu } from "../graphql/client";
 import { Footer } from "../components/Footer";
 import {About} from "../components/About"
 import { Groups } from "../components/Groups";
+import { Opening } from "../components/Opening";
 
 export async function getStaticProps(context) {
   const DATA_POSTS = await getAllPosts("");
@@ -24,7 +25,6 @@ export async function getStaticProps(context) {
 }
 
 export default function Home({ posts,menu,footer }) {
-  console.log(menu);
   return (
     <>
       <Head>
@@ -34,6 +34,7 @@ export default function Home({ posts,menu,footer }) {
       </Head>
       <Hero menu={menu}/>
       <Articles posts={posts} />
+      <Opening/>
       <About/>
       <Groups/>
       <Footer footer={footer}/>
