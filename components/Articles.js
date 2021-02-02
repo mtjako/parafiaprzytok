@@ -42,10 +42,10 @@ const ArticlesTile = ({ post }) => {
                 <p className="text-xl font-semibold text-gray-900">
                   {post.title}
                 </p>
-                <div
+                {/* <div
                   className="mt-3 text-base text-gray-500"
                   dangerouslySetInnerHTML={{ __html: post.excerpt }}
-                ></div>
+                ></div> */}
               </div>
             </div>
             <div className="mt-6 flex items-center">

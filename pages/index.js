@@ -24,6 +24,7 @@ export async function getStaticProps(context) {
 }
 
 export default function Home({ posts,menu,footer }) {
+  console.log(menu);
   return (
     <>
       <Head>

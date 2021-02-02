@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import { Error } from "../components/Alerts/Error";
 import { Success } from "../components/Alerts/Success";
+import { Contact } from "../components/Contact";
 import { Faq } from "../components/Faq";
 import { Footer } from "../components/Footer";
 import { Navigation } from "../components/Navigation";
@@ -214,6 +215,7 @@ export default function Post({ post, menu, footer }) {
             </form>
           </div>*/}
           </div>
+          <Contact/>
           <Faq />
         </div>
       </div>

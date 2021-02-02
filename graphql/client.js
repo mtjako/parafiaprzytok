@@ -23,7 +23,7 @@ const cache = new InMemoryCache({
 
 const link = createHttpLink({
   // uri: `${process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL}/graphql`,
-  uri: "http://ednlkrm.cluster030.hosting.ovh.net/graphql",
+  uri: "http://parafia.jakowlew.pl/graphql",
 });
 
 export const client = new ApolloClient({
@@ -36,7 +36,7 @@ export const client = new ApolloClient({
 
 const ALLPOSTS = gql`
   query getAllPosts {
-    posts {
+    posts(first: 6) {
       nodes {
         title
         slug
@@ -175,7 +175,7 @@ export async function sendContact(name,mail,mess) {
 
 const ALBUMS = gql`
 query getAllAlbums {
-  posts(where: {categoryName: "Galeria"}) {
+  posts(where: {categoryName: "Galeria"},first: 100) {
     nodes {
       title
       slug
