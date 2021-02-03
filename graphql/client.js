@@ -23,7 +23,7 @@ const cache = new InMemoryCache({
 
 const link = createHttpLink({
   // uri: `${process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL}/graphql`,
-  uri: "http://parafia.jakowlew.pl/graphql",
+  uri: "https://admin.parafiaprzytok.pl/graphql",
 });
 
 export const client = new ApolloClient({
