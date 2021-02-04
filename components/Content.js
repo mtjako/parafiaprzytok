@@ -6,9 +6,8 @@ export const Content = ({ post }) => {
       ? post.featuredImage.node.srcSet.split(", ")[1].split(" ")[0]
       : "/defaultPost.jpg";
   return (
-    <div className="relative py-16 bg-white overflow-hidden">
+    <div className="relative py-16 overflow-hidden">
       <div className="relative px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <Dots />
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
@@ -33,6 +32,7 @@ export const Content = ({ post }) => {
           />
         </div>
       </div>
+      <Dots />
     </div>
   );
 };

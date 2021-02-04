@@ -1,7 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const Hero = ({ menu }) => {
   const [open,setOpen] = useState(false);
+  const [photo,setPhoto] = useState("przytok.jpg");
+  useEffect(()=>{
+    const tick = setInterval(()=>{
+      if(photo == "przytok.jpg"){setPhoto("droszkow.jpg")} 
+      else if(photo == "droszkow.jpg"){setPhoto("jany.jpg")}
+      else if(photo == "jany.jpg"){setPhoto("przytok.jpg")}
+    },10000);
+    return () => {
+      clearInterval(tick);
+    }
+  })
+
   return (
     <>
       <div className="relative bg-white overflow-hidden">
@@ -169,7 +181,7 @@ export const Hero = ({ menu }) => {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="./przytok.jpg"
+            src={photo}
             alt="zdjęcie ołtarza w przytoku"
           />
         </div>
