@@ -32,7 +32,7 @@ const Item = ({ question }) => {
   const [open, setOpen] = useState(0);
   return (
     <div className="pt-6">
-      <dt className="text-lg">
+      <div className="text-lg">
         <button
           onClick={() => setOpen(!open)}
           className="text-left w-full flex justify-between items-start text-gray-400"
@@ -56,7 +56,7 @@ const Item = ({ question }) => {
             </svg>
           </span>
         </button>
-      </dt>
+      </div>
       <dd className={`mt-2 pr-12 ${open ? "" : "hidden"}`}>
         <p className="text-base text-gray-500">{question.a}</p>
       </dd>
@@ -69,7 +69,7 @@ export const Faq = () => {
     <div>
       <div className="max-w-7xl mx-auto py-12  sm:py-16 ">
         <div className="max-w-3xl mx-auto ">
-          <div className="text-center">
+          <div>
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               FAQ
             </h2>
@@ -77,11 +77,11 @@ export const Faq = () => {
               Najczęściej zadawane pytania
             </p>
           </div>
-          <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+          <div className="mt-6 space-y-6 divide-y divide-gray-200">
             {questions.map((question, index) => (
               <Item question={question} key={index} />
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ export const Opening = () => {
 <div className="py-12 bg-white">
   <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <Header title="Godziny Mszy Świętych" category="Godziny otwarcia" />
-    <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+    <div className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
       <div>
 
         <div className="mt-5">
@@ -48,7 +48,7 @@ export const Opening = () => {
           </div>
         </div>
       </div>
-    </dl>
+    </div>
   </div>
 </div>
 
