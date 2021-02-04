@@ -7,7 +7,7 @@ import {About} from "../components/About"
 import { Groups } from "../components/Groups";
 import { Opening } from "../components/Opening";
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const DATA_POSTS = await getAllPosts("");
   const DATA_MENU = await getMenu('mainmenu');
   const DATA_FOOTER = await getMenu('footer');
@@ -19,8 +19,7 @@ export async function getStaticProps(context) {
       posts,
       menu,
       footer,
-    },
-    revalidate: 1,
+    }
   };
 }
 
