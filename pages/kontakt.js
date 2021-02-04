@@ -24,6 +24,15 @@ export default function Post({ menu, footer }) {
     <>
       <Head>
         <title>Parafia Przytok</title>
+        <link rel="icon" href="/logo.svg" />
+        <meta
+          property="og:url"
+          content={`https://parafiaprzytok.pl/kontakt`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Kontakt & FAQ" />
+        <meta property="og:image" content="https://parafiaprzytok.pl/phone.jpg" />
+        <meta property="og:description" content="Oficjalna strona Parafi Przytok" />
         <meta name="description" content="Oficjalna strona Parafi Przytok" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

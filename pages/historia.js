@@ -25,7 +25,16 @@ export default function Post({ menu, footer }) {
     <>
       <Head>
         <title>Parafia Przytok</title>
-        <meta name="description" content="Oficjalna strona Parafi Przytok"/>
+        <link rel="icon" href="/logo.svg" />
+        <meta
+          property="og:url"
+          content={`https://parafiaprzytok.pl/historia`}
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Historia Parafi Przytok" />
+        <meta property="og:image" content="https://parafiaprzytok.pl/history.jpg" />
+        <meta property="og:description" content="Oficjalna strona Parafi Przytok" />
+        <meta name="description" content="Oficjalna strona Parafi Przytok" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navigation menu={menu} />

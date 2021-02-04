@@ -29,7 +29,16 @@ export default function Home({ posts,menu,footer }) {
     <>
       <Head>
         <title>Parafia Przytok</title>
-        <meta name="description" content="Oficjalna strona Parafi Przytok"/>
+        <link rel="icon" href="/logo.svg" />
+        <meta
+          property="og:url"
+          content={`https://parafiaprzytok.pl`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Oficjalna strona Parafi Przytok" />
+        <meta property="og:image" content="https://parafiaprzytok.pl/przytok.jpg" />
+        <meta property="og:description" content="Oficjalna strona Parafi Przytok" />
+        <meta name="description" content="Oficjalna strona Parafi Przytok" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Hero menu={menu}/>
