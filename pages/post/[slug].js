@@ -34,7 +34,7 @@ export default function Post({ post, menu, footer }) {
   const thumbnail =
     post.featuredImage != null
       ? post.featuredImage.node.srcSet.split(", ")[1].split(" ")[0]
-      : "/defaultPost.jpg";
+      : "https://parafiaprzytok.pl/defaultPost.jpg";
   return (
     <>
       <Head>
@@ -47,6 +47,7 @@ export default function Post({ post, menu, footer }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.title} />
         <meta property="og:image" content={thumbnail} />
+        <meta property="og:description" content="Oficjalna strona Parafi Przytok" />
         <meta name="description" content="Oficjalna strona Parafi Przytok" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
