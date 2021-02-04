@@ -23,36 +23,36 @@ export async function getStaticProps(context) {
 }
 
 export default function Post({ post, menu, footer }) {
-  const [name, setName] = useState("");
-  const [mail, setMail] = useState("");
-  const [mess, setMess] = useState("");
-  const [time, setTime] = useState(false);
-  const [maxLength, setMaxLength] = useState(false);
-  const [send, setSend] = useState(false);
-  const [check, setCheck] = useState(false);
-  function sendMessage(e) {
-    e.preventDefault();
-    setSend(false);
-    setTime(false);
-    setMaxLength(false);
-    if (mess.length <= 500) {
-      if (
-        parseInt(localStorage.getItem("time")) + 30000 < Date.now() ||
-        localStorage.getItem("time") == null
-      ) {
-        localStorage.setItem("time", Date.now());
-        sendContact(name, mail, mess);
-        setSend(true);
-      } else {
-        setTime(
-          30 -
-            parseInt(parseInt(Date.now() - localStorage.getItem("time")) / 1000)
-        );
-      }
-    } else {
-      setMaxLength(mess.length);
-    }
-  }
+  // const [name, setName] = useState("");
+  // const [mail, setMail] = useState("");
+  // const [mess, setMess] = useState("");
+  // const [time, setTime] = useState(false);
+  // const [maxLength, setMaxLength] = useState(false);
+  // const [send, setSend] = useState(false);
+  // const [check, setCheck] = useState(false);
+  // function sendMessage(e) {
+  //   e.preventDefault();
+  //   setSend(false);
+  //   setTime(false);
+  //   setMaxLength(false);
+  //   if (mess.length <= 500) {
+  //     if (
+  //       parseInt(localStorage.getItem("time")) + 30000 < Date.now() ||
+  //       localStorage.getItem("time") == null
+  //     ) {
+  //       localStorage.setItem("time", Date.now());
+  //       sendContact(name, mail, mess);
+  //       setSend(true);
+  //     } else {
+  //       setTime(
+  //         30 -
+  //           parseInt(parseInt(Date.now() - localStorage.getItem("time")) / 1000)
+  //       );
+  //     }
+  //   } else {
+  //     setMaxLength(mess.length);
+  //   }
+  // }
   return (
     <>
       <Head>

@@ -9,43 +9,43 @@ export const Opening = () => {
       <div>
 
         <div className="mt-5">
-          <dt className="text-2xl leading-6 font-bold text-gray-900">
+          <div className="text-2xl leading-6 font-bold text-gray-900">
             Przytok
-          </dt>
-          <dd className="mt-2 text-lg text-gray-600">
+          </div>
+          <div className="mt-2 text-lg text-gray-600">
             <b>08:00</b> - Niedziela <br/>
             <b>12:30</b> - Niedziela <br/>
             <b>18:00</b> - Środa <br/>
             <b>18:00</b> - Piątek <br/>
-          </dd>
+          </div>
         </div>
       </div>
 
       <div>
 
         <div className="mt-5">
-          <dt className="text-2xl leading-6 font-bold text-gray-900">
+          <div className="text-2xl leading-6 font-bold text-gray-900">
             Droszków
-          </dt>
-          <dd className="mt-2 text-lg text-gray-600">
+          </div>
+          <div className="mt-2 text-lg text-gray-600">
             <b>11:00</b> - Niedziela <br/>
             <b>17:30</b> - Niedziela <br/>
             <b>18:00</b> - Czwartek <br/>
             <b>18:00</b> - Sobota <br/>
-          </dd>
+          </div>
         </div>
       </div>
 
       <div>
 
         <div className="mt-5">
-          <dt className="text-2xl leading-6 font-bold text-gray-900">
+          <div className="text-2xl leading-6 font-bold text-gray-900">
             Jany
-          </dt>
-          <dd className="mt-2 text-lg text-gray-600">
+          </div>
+          <div className="mt-2 text-lg text-gray-600">
             <b>09:30</b> - Niedziela <br/>
             <b>18:00</b> - Wtorek <br/>
-          </dd>
+          </div>
         </div>
       </div>
     </dl>
