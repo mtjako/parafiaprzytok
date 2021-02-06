@@ -27,3 +27,10 @@ a {
 .content p{
   margin-bottom: 1rem;
 }
+
+.content p{
+  margin-bottom: 1rem;
+}
+.content ol{
+  list-style-type: decimal;
+}
