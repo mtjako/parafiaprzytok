@@ -34,3 +34,13 @@ a {
 .content ol{
   list-style-type: decimal;
 }
+footer img{
+  height: 24px;
+  display: inline-block;
+}
+footer b{
+  color: #555;
+}
+footer span{
+  color: #868F34;
+}
