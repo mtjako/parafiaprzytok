@@ -20,6 +20,10 @@ export const Albums = ({ albums }) => {
 
 const AlbumsTile = ({ post }) => {
   const date = post.date.split("T")[0];
+  const thumbnail =
+  post.featuredImage != null
+    ? post.featuredImage.node.sourceUrl
+    : "/defaultPost.jpg";
   return (
     <>
       <Link href={`/post/${post.slug}`}>
@@ -27,11 +31,7 @@ const AlbumsTile = ({ post }) => {
           <div className="flex-shrink-0">
             <img
               className="h-48 w-full object-cover"
-              src={
-                post.featuredImage
-                  ? post.featuredImage.node.srcSet.split(", ")[1].split(" ")[0]
-                  : "/defaultPost.jpg"
-              }
+              src={thumbnail}
               alt=""
             />
           </div>

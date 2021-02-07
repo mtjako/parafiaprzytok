@@ -43,7 +43,7 @@ const ALLPOSTS = gql`
         databaseId
         featuredImage {
           node {
-            srcSet
+            sourceUrl
           }
         }
         author {
@@ -90,7 +90,7 @@ const POST = gql`
       }
       featuredImage {
         node {
-          srcSet
+          sourceUrl
         }
       }
     }
@@ -182,7 +182,7 @@ query getAllAlbums {
       databaseId
       featuredImage {
         node {
-          srcSet
+          sourceUrl
         }
       }
       author {

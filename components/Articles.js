@@ -20,6 +20,10 @@ export const Articles = ({ posts }) => {
 
 const ArticlesTile = ({ post }) => {
   const date = post.date.split("T")[0];
+  const thumbnail =
+  post.featuredImage != null
+    ? post.featuredImage.node.sourceUrl
+    : "/defaultPost.jpg";
   return (
     <>
       <Link href={`/post/${post.slug}`}>
@@ -27,11 +31,7 @@ const ArticlesTile = ({ post }) => {
           <div className="flex-shrink-0">
             <img
               className="h-48 w-full object-cover"
-              src={
-                post.featuredImage
-                  ? post.featuredImage.node.srcSet.split(", ")[1].split(" ")[0]
-                  : "/defaultPost.jpg"
-              }
+              src={thumbnail}
               alt=""
             />
           </div>
@@ -42,10 +42,6 @@ const ArticlesTile = ({ post }) => {
                 <p className="text-xl font-semibold text-gray-900">
                   {post.title}
                 </p>
-                {/* <div
-                  className="mt-3 text-base text-gray-500"
-                  dangerouslySetInnerHTML={{ __html: post.excerpt }}
-                ></div> */}
               </div>
             </div>
             <div className="mt-6 flex items-center">

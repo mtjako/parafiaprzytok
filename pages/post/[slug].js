@@ -32,9 +32,9 @@ export async function getStaticProps(context) {
 
 export default function Post({ post, menu, footer }) {
   const thumbnail =
-    post.featuredImage != null
-      ? post.featuredImage.node.srcSet.split(", ")[1].split(" ")[0]
-      : "https://parafiaprzytok.pl/defaultPost.jpg";
+  post.featuredImage != null
+    ? post.featuredImage.node.sourceUrl
+    : "/defaultPost.jpg";
   return (
     <>
       <Head>
