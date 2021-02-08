@@ -64,15 +64,15 @@ const data = [
     importance: 0,
   },
   {
-    title: "Przyniesienie kielichów",
+    title: "Liturgia Eucharystyczna",
+    importance: 1,
+  },
+  {
+    title: "Przyniesienie kielicha, głębokiej pateny i puszki",
     importance: 0,
     work: 1,
     desc:
-      "Podczas modlitwy wiernych, ministrant podchodzi do ołtarza i rozkłada korporał a następnie stawia kielich obok z prawej strony.",
-  },
-  {
-    title: "Liturgia Eucharystyczna",
-    importance: 1,
+      "Po modlitwie wiernych, ministrant podchodzi do ołtarza i rozkłada korporał a następnie stawia kielich, głęboką patenę i puszkę obok z prawej strony.",
   },
   {
     title: "Przygotowanie darów | Śpiew",
@@ -213,7 +213,7 @@ const data = [
     importance: 0,
     work: 1,
     desc:
-      'Gdy rozpoczną się ogłoszenia parafialne wyznaczony ministrant idzie do zakrsti i bierze prase katolicką, a następnie udaje się do głównych drzwi wejściowych i po zakończeniu Mszy Świętej sprzedaje gazety po wyznaczonej cenie.',
+      'Gdy rozpoczną się ogłoszenia parafialne wyznaczony ministrant idzie do zakrsti i bierze prase katolicką, a następnie udaje się do głównych drzwi wejściowych.',
   },
   {
     title: "Błogosławieństwo",
