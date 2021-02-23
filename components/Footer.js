@@ -23,7 +23,7 @@ export const Footer = ({ footer }) => {
           </nav>
           <p className="mt-8 text-center text-base text-gray-500">
             &copy; 2021 Parafia Przytok | All rights reserved <br/>
-            Powered by <img src="/logodroszkowa.jpg"/> <b><span>D</span>roszków <span>O</span>nline</b> 
+            Powered by <img src="/logodroszkowa.jpg" alt="logo droszkowa"/> <b><span>D</span>roszków <span>O</span>nline</b> 
           </p>
         </div>
       </footer>
